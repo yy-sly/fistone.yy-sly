@@ -10,15 +10,17 @@
 	<meta name="theme-color" content="#2a2d35">
 
 	<!-- Vendor Css-->
-	<link rel="stylesheet" href="assets/css/vendor.css" />	
-	<link rel="stylesheet" href="assets/css/LineIcons.min.css" />	
-	
+	<link rel="stylesheet" href="assets/css/vendor.css" />
+	<link rel="stylesheet" href="assets/css/LineIcons.min.css" />
+
 	<!-- TamTemplate style Css -->
 	<link href="assets/css/tam.css" rel="stylesheet">
 
+	<!-- Custom style Css -->
+	<link href="assets/css/custom.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target=".navbar" id="home">
 
 	<!-- START: Preloader -->
 	<div id="preloader" class="preloader">
@@ -27,6 +29,7 @@
 		</div>
 	</div>
 	<!-- END: Preloader -->
+
 
 	<!-- START: Aside -->
 	<aside class="aside">
@@ -59,10 +62,10 @@
 
 					</div>
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.html"><i class="lni-home"></i>Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="resume.html"><i class="lni-briefcase"></i>resume</a>
                         </li>
                         <li class="nav-item">
@@ -101,81 +104,147 @@
 
     <div class="page-wrapper">
 
-		<!-- START: HOME -->		
-    	<section class="section-home " id="home">
-    		<div class="glass">Alice Joseph</div>
-    		<!-- <img src="assets/images/banner.jpg" /> -->
-    	</section>	
-    	<!-- END: HOME -->
 
-		<!-- START: ABOUT -->
-		<section class="section section-about" id="about">
+		<!-- START: RESUME -->
+
+		<section class="section section-light section-resume" id="resume">
 			<div class="container">
+
 				<div class="section-head">
-					<span>Get to know</span>
-					<h2>About Me</h2>
+					<span>My Resume</span>
+					<h2>My Expertises</h2>
 				</div>
 
-				<div class="row justify-content-center align-items-center">
-					<div class="col-md-6">
-						<img class="about-img img-fluid wow fadeInUp" data-wow-duration="1s" src="assets/images/avatar.jpg" alt="About Picture">
-					</div>
-					<div class="col-md-6">
-						<div class="about-desc wow fadeInUp" data-wow-duration="1s"  data-wow-delay="500ms">
-							<div class="about-desc-content">
-								<h1 class="font-weight-light mb-5">I'm Alice Joseph</h1>
-								<p class="font-weight-light my-3">Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
-								<p class="font-weight-light my-3">Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
+				<div class="section-resume-wrap">
+					<div class="section-experience mb-5">
+						<div class="row">
+							<div class="col-lg-3">
+								<h5 class="section-subHead mb-4 "> My Experience</h5>
 							</div>
 
-							<div class="about-desc-more text-left mt-5">
-								<div class="row">
-									<div class="col-md-6">
-										<div class="about-desc-info">
-											<b>Age : </b>
-											<span>19</span>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="about-desc-info">
-											<b>Location : </b>
-											<span>Miami, FL</span>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="about-desc-info">
-											<b>Degree : </b>
-											<span>Master</span>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="about-desc-info">
-											<b>Skype : </b>
-											<a href="tel:beingeorge">beingeorge</a>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="about-desc-info">
-											<b>Phone : </b>
-											<a href="tel:0987654321">XXX</a>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="about-desc-info">
-											<b>Email :</b>
-											<a href="mailto:XXX">XXX</a>
-										</div>
-									</div>
+							<div class="col-lg-9">
+								<div class="ExperienceList pb-3">
 									
+									<div class="resume-list b-box p-4">
+										<div class="row align-items-center">
+											<div class="col-3 col-md-3 pb-3 pb-md-0">
+												Google Inc.	
+											</div>
+											<div class="col-md-5 pb-2 pb-md-0">
+												<h5 class="mb-3">Senior Architect</h5>
+												<p>Collaborate with creative and development teams on the execution of ideas.</p>
+											</div>
+											<div class="col-md-4 text-md-right"><h6 class="badge badge-light">2015 - Present</h6></div>
+											
+										</div>
+									</div>
+									<div class="resume-list b-box p-4">
+										<div class="row align-items-center">
+											<div class="col-3 col-md-3 pb-3 pb-md-0">
+												Facebook.	
+											</div>
+											<div class="col-md-5 pb-2 pb-md-0">
+												<h5 class="mb-3">Front-end Developer</h5>
+												<p>Collaborate with creative and development teams on the execution of ideas.</p>
+											</div>
+											<div class="col-md-4 text-md-right"><h6 class="badge badge-light">2013 - 2015</h6></div>
+											
+										</div>
+									</div>
+									<div class="resume-list b-box p-4">
+										<div class="row align-items-center">
+											<div class="col-3 col-md-3 pb-3 pb-md-0">
+												Envato.	
+											</div>
+											<div class="col-md-5 pb-2 pb-md-0">
+												<h5 class="mb-3">UI Developer</h5>
+												<p>Collaborate with creative and development teams on the execution of ideas.</p>
+											</div>
+											<div class="col-md-4 text-md-right"><h6 class="badge badge-light">2011 - 2013</h6></div>
+											
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 
+					<div class="section-education">
+						<div class="row">
+							<div class="col-lg-3">
+								<h5 class="section-subHead mb-4"> My Education</h5>
+							</div>
+
+							<div class="col-lg-9">
+								<div class="EducationList">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="resume-list b-box p-4 mb-4">
+												<div>
+													<h5>Master in Arts</h5>
+													<h6 class="badge badge-light d-inline-block my-3">2006-2008</h6>
+													<p>Collaborate with creative and development teams on the execution of ideas.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="resume-list b-box p-4 mb-4">
+												<div>
+													<h5>Master in Arts</h5>
+													<h6 class="badge badge-light d-inline-block my-3">2006-2008</h6>
+													<p>Collaborate with creative and development teams on the execution of ideas.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="resume-list b-box p-4 mb-4">
+												<div>
+													<h5>Master in Arts</h5>
+													<h6 class="badge badge-light d-inline-block my-3">2006-2008</h6>
+													<p>Collaborate with creative and development teams on the execution of ideas.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="resume-list b-box p-4 mb-4">
+												<div>
+													<h5>Art University</h5>
+													<h6 class="badge badge-light d-inline-block my-3">2006-2008</h6>
+													<p>Collaborate with creative and development teams on the execution of ideas.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- END: RESUME -->
+
+		<!-- START: CTA -->
+		<section class="section section-freelance section-light text-center ">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-head wow fadeInUp" data-wow-duration="1.5s">
+							<h2>Let's work together!</h2>
+						</div>
+						<div class="mt-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
+							<a href="#" class="btn hover-state">Hire Me!</a>
+						</div>
+					</div>
 				</div>
 			</div>
+		</section>
+		<!-- END: CTA -->
 
-			<div class="container mt-5 pt-3">
+		<section class="section section-dark section-skills">
+			<div class="container">
 				<div class="section-head ">
 					<span>ABILITIES</span>
 					<h2>My Skills</h2>
@@ -223,52 +292,8 @@
 					</div>
 				</div>
 			</div>
+
 		</section>
-		<!-- END: ABOUT -->
-
-		<!-- START: SERVICES -->
-		<section class="section section-dark section-services" id="services">
-			<div class="container">
-				<div class="section-head">
-					<span>WHAT I DO</span>
-					<h2>My Services</h2>
-				</div>
-
-				<div class="row mt-4">
-					<div class="col-sm-6 col-lg-6">
-						<div class="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s">
-							<div class="services-list-icon">
-								<i class="lni-color-pallet"></i>
-								<span>01</span>
-							</div>
-							<div class="mt-4">
-								<h5 class="mb-0">Graphic Design</h5>
-								<p class=" mt-3">Modern and mobile-ready website that will help of your marketing. Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-lg-6">
-						<div class="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-							<div class="services-list-icon">
-								<i class="lni-laptop-phone"></i>
-								<span>02</span>
-							</div>
-							<div class="mt-4">
-								<h5 class="mb-0">Web Development</h5>
-								<p class=" mt-3">Modern and mobile-ready website that will help of your marketing. Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 text-center mt-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
-						<a href="services.html" class="btn hover-state">View All</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: SERVICES -->
-
 
 		<!--START: FOOTER-->
 		<footer class="footer section section-light">
@@ -277,6 +302,8 @@
 			</div>
 		</footer>
 		<!--END: FOOTER-->
+
+
 	</div>
 
 
